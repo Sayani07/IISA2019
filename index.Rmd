@@ -1,7 +1,7 @@
 ---
 title: "Exploring probability distributions for bivariate temporal granularities"
 type: "contributed"
-author: "<br> Sayani Gupta <br> <i class='fab fa-github'></i> Sayani07 <br> <i class='fab fa-twitter' style='color:#6CADDE'></i> @SayaniGupta07 <br><small> https://sayanigupta-iisa.netlify.com/</small>"
+author: "<br> Sayani Gupta <br> <i class='fab fa-github'></i> Sayani07 <br> <i class='fab fa-twitter' style='color:#6CADDE'></i> @SayaniGupta07 <br><small> https://sayanigupta-iisa2019.netlify.com/</small>"
 date: <font size="5"> Indian Institute of Statistical Association <br> December 26, 2019
 output:
   xaringan::moon_reader:
@@ -10,7 +10,7 @@ output:
     self_contained: false
     nature:
       ratio: 4:3
-      highlightStyle: solarized-dark
+      highlightStyle: solarized-light
       highlightLines: true
       countIncrementalSlides: false
 ---
@@ -445,7 +445,7 @@ Rob J Hyndman
 
 Package: [gravitas 0.1.0 on CRAN](https://cran.r-project.org/web/packages/gravitas/index.html)  
 Code: https://github.com/Sayani07/gravitas  
-Slides: https://sayanigupta-ysc.netlify.com/  
+Slides: https://sayanigupta-iisa2019.netlify.com/ 
 
 <span style="color: White"> Slides created with <span style="color: Crimson"><i> Rmarkdown, knitr, xaringan, xaringanthemer</i>
 

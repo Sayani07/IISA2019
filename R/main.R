@@ -114,7 +114,7 @@ cust4 <- smart_meter50 %>% distinct(customer_id) %>% head(10)
 smart_meter50 %>% 
   harmony(ugran = "month",
           lgran = "hhour",
-          filter_out = c("fortnight", "hhour")) %>% knitr::kable(row.names = TRUE) %>% kable_styling(font_size = 20)
+          filter_out = c("fortnight", "hhour")) %>% knitr::kable(row.names = TRUE) %>% kable_styling(font_size = 16)
 
 ##----granplotoverlay1
 
