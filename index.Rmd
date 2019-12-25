@@ -30,14 +30,19 @@ read_chunk('R/main.R')
 
 ```{r xaringan-themer, include = FALSE}
 library(xaringanthemer)
- solarized_light(
+ solarized_dark(
    header_font_google = google_font("Josefin Sans"),
    text_font_google   = google_font("Montserrat", "300", "300i"),
    code_font_google   = google_font("Droid Mono"),
-   header_color = "#00aba9",
-   text_color = "#2b5797"
-   # header_color = "#00008B",
+   # header_color = "#00aba9",
+   # text_color = "#2b5797"
+   # # header_color = "#00008B",
    # text_color = "#8B4513"
+  header_color = "#ffbb33",
+  # text_color = "#FFDAB9",
+  text_color = "White",
+  background_color = "#555555",
+  #title_slide_background_color = " #D9D690" 
    
  )
 ```
@@ -107,7 +112,7 @@ include_graphics("images/dino-saurus.gif")
 ```
 
 
-["Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics through Simulated Annealing"](https://www.autodeskresearch.com/publications/samestats)
+### ["Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics through Simulated Annealing"](https://www.autodeskresearch.com/publications/samestats)
 
 <!-- -- [Nick Tierney, WOMBAT2019](https://github.com/njtierney/wombat19) -->
 
@@ -375,7 +380,7 @@ smart_meter %>%
 
 ```{r gran-advice}
 ```
-### <span style="color:Orange"><large>  Quantile plots recommended for the harmony pair (month_year, hour_day) </large>
+### <large>  Quantile plots recommended for the harmony pair (month_year, hour_day) </large>
 ]
 
 ---
@@ -432,7 +437,7 @@ class: center, middle
 Di Cook
 ]
 <img src="images/Numbats.png">
-NUMBATS
+NUMBATS, Monash University
 ]
 
 
@@ -441,13 +446,13 @@ NUMBATS
 ![](https://pbs.twimg.com/profile_images/1103150025981321216/dV3Wz_ql_400x400.png)
 Rob J Hyndman
 ]
-####  More Information
+###  More Information
 
 Package: [gravitas 0.1.0 on CRAN](https://cran.r-project.org/web/packages/gravitas/index.html)  
 Code: https://github.com/Sayani07/gravitas  
 Slides: https://sayanigupta-iisa2019.netlify.com/ 
 
-<span style="color: White"> Slides created with <span style="color: Crimson"><i> Rmarkdown, knitr, xaringan, xaringanthemer</i>
+Slides created with <i> Rmarkdown, knitr, xaringan, xaringanthemer</i>
 
 
 ]
