@@ -449,8 +449,8 @@ Rob J Hyndman
 ###  More Information
 
 Package: [gravitas 0.1.0 on CRAN](https://cran.r-project.org/web/packages/gravitas/index.html)  
-Code: https://github.com/Sayani07/gravitas  
-Slides: https://sayanigupta-iisa2019.netlify.com/ 
+Slides: https://sayanigupta-iisa2019.netlify.com/   
+Materials: https://github.com/Sayani07/IISA2019 
 
 Slides created with <i> Rmarkdown, knitr, xaringan, xaringanthemer</i>
 
