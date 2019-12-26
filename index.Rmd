@@ -2,7 +2,7 @@
 title: "Exploring probability distributions for bivariate temporal granularities"
 type: "contributed"
 author: "<br> Sayani Gupta <br> <i class='fab fa-github'></i> Sayani07 <br> <i class='fab fa-twitter' style='color:#6CADDE'></i> @SayaniGupta07 <br><small> https://sayanigupta-iisa2019.netlify.com/</small>"
-date: <font size="5"> Indian Institute of Statistical Association <br> December 26, 2019
+date: <font size="5"> International Indian Statistical Association <br> December 26, 2019
 output:
   xaringan::moon_reader:
     after_body: ["libs/collapseoutput.js"]
