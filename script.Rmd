@@ -56,7 +56,7 @@ Multiple order up granularities can be computed from single order up granulariti
 
 Next we see what is the data structure that we consider for solving the problem. 
 
-Tsibble is an explicit data- and model-oriented object. 
+The tsibble package provides a data infrastructure for tidy temporal data 
 1. Index is a variable with inherent ordering from past to present.
 2. Key is a set of variables that define observational units over time.
 3. Each observation should be uniquely identified by **index** and **key**.

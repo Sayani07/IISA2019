@@ -331,7 +331,10 @@ Recommendation on a harmony? `gran_advice()`
 
 ```r
 smart_meter %>%
-* search_gran(lowest_unit = "hhour", highest_unit =  "month")
+*   search_gran(lowest_unit = "hhour", 
+*                highest_unit =  "month", 
+*               filter_out = c("fortnight",
+*                                "hhour"))
 ```
 .pull-left[
 ```{r search_gran}
