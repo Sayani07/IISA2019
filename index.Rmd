@@ -42,10 +42,11 @@ library(xaringanthemer)
   # text_color = "#FFDAB9",
   text_color = "White",
   background_color = "#555555",
-  #title_slide_background_color = " #D9D690" 
-   
+  #title_slide_background_color = " #D9D690"
  )
 ```
+  
+
 
 # Electricity smart meter technology  (~ 40 billion half hourly observations)
 

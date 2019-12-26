@@ -321,3 +321,7 @@ blockquote:before {
   margin-right: auto;
   border-radius: 50%;
 }
+
+.remark-slide-number {
+  display: none;
+}
