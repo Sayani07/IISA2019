@@ -22,7 +22,9 @@ To have a perspective of how different the energy consumption for each household
 
 Things become more hard when we try to visualize periodicity in the data for all households. For example, if we plot the energy consumption across each hour of the day, the structure of the data suggest that there are several data points for each hour of the day for just one household. Hence, for several households, there will be a blob of points for each hour of the day. 
 
-In such cases, it is common to see aggregates of usage across households or just one particular summary statistic. But studying overall energy use hides the distributions of usage at finer scales, making it difficult to examine the distribution of energy behaviors of all households.
+## Slide 4
+
+In such cases, it is common to see aggregates of usage across households or just one particular summary statistic. But studying overall energy use hides the distributions of usage at finer scales. Just to elaborate it further, i took the example of Anscombe's Quartet which is a set of four datasets, where each produces the same summary statistics which could lead one to believe the datasets are quite similar. However, after visualizingthe data, it becomes clear that the datasets are very different. 
 
 
 ## Slide 4
@@ -60,7 +62,7 @@ Tsibble is an explicit data- and model-oriented object.
 3. Each observation should be uniquely identified by **index** and **key**.
 4. the rest of the columns are measurements.
 
-We extend a tsibble object with additional columns containing cyclic granularities. Now, from grammar of graphics, one of the cyclic granularities is considered to act as a aesthetic (x-axis), the measurement is considered on the y-axis and the other cyclic granularity on the facet for the purpose of visualisation.
+We extend a tsibble object with additional columns containing cyclic granularities. Now, following the grammar of graphics which is a framwork to relate data space to the graphic space, we take one of the cyclic granularities as a aesthetic (x-axis), the measurement is considered on the y-axis and the other cyclic granularity on the facet for the purpose of visualisation.
 
 
 ## Slide 10
@@ -92,7 +94,7 @@ For all these plots, we should be vigilant of the number of the number of observ
 
 ## Slide 12
 
-So my package gravitas has functions which try to address each of these three aspects of granularities. It lets us assess all granularities at our disposal,  compute them, screen the harmonies, check if observations are sufficient for plotting distributions and creates a recommended plot.
+So my package gravitas has functions which try to address each of these three aspects of granularities. It lets us assess all granularities at our disposal,  compute them, screen the harmonies, check if observations are sufficient for plotting distributions and suggests a recommended plot based on the levels of the cyclic granularities.
 
 ## Slide 13
 
@@ -100,16 +102,18 @@ We will see an example of the same data set that we initially spoke about.
 
 ## Slide 14
 
-Set of granularities that we can look at is 15. So if we choose any two from them, we can have a total of 15 combination 2, that is, 156 plots that we have to visualize to have multiple perspectives of the data.
+Set of granularities that we can look at is 6. So if we choose any two from them, we can have a total of 6 permutation 2, that is, 30 plots that we have to visualize to have multiple perspectives of the data.
 Wait, what???
 
 ## Slide 15
 
-Good news! Thanks to the idea of harmonies, we only have 13 out of 156 to visualize. 
+Good news! Thanks to the idea of harmonies, we only have 13 out of 30 to visualize. 
 
 ## Slide 16
 
 Now that we have 13 harmonies to visualize, we can decide on the distribution plot based on if we want to explore patterns or anomalies,
+
+gran_advice gives you advice based on the data structure of teh cyclic granularities.
 
 For example, 
 
