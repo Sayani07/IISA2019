@@ -332,7 +332,7 @@ Recommendation on a harmony? `gran_advice()`
 ```r
 smart_meter %>%
 *   search_gran(lowest_unit = "hhour", 
-*                highest_unit =  "month", 
+*               highest_unit =  "month", 
 *               filter_out = c("fortnight",
 *                                "hhour"))
 ```
@@ -404,7 +404,7 @@ smart_meter %>%
 *           plot_type = "quantile", 
 *           response = "general_supply_kwh",
 *           quantile_prob = c(0.05, 0.1, 0.25, 
-*                             0.5, 0.75, 0.9, 0.95)
+*                             0.5, 0.75, 0.9, 0.95))
 ```
 
 ```{r granplotoverlay3}

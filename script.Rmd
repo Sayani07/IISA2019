@@ -94,7 +94,7 @@ For all these plots, we should be vigilant of the number of the number of observ
 
 ## Slide 12
 
-So my package gravitas has functions which try to address each of these three aspects of granularities. It lets us assess all granularities at our disposal,  compute them, screen the harmonies, check if observations are sufficient for plotting distributions and suggests a recommended plot based on the levels of the cyclic granularities.
+So my package gravitas has functions which try to address each of these three broad aspects of granularities. It lets us assess all granularities at our disposal,  compute them, screen the harmonies, check if observations are sufficient for plotting distributions and suggests a recommended plot based on the levels of the cyclic granularities.
 
 ## Slide 13
 
@@ -102,6 +102,7 @@ We will see an example of the same data set that we initially spoke about.
 
 ## Slide 14
 
+We can customise the which granularities we want to look at using these options.
 Set of granularities that we can look at is 6. So if we choose any two from them, we can have a total of 6 permutation 2, that is, 30 plots that we have to visualize to have multiple perspectives of the data.
 Wait, what???
 
